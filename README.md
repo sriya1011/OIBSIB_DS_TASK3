@@ -1,19 +1,45 @@
-# OIBSIB_DS_TASK3
-Car Price Prediction with Machine Learning
+# 🚗 Car Price Prediction using Machine Learning
 
-Objective:
-To build a predictive model that estimates the price of a car based on various features such as brand, fuel type, horsepower, and mileage using machine learning techniques.
+This project predicts the **price of used cars** based on various features such as brand, model, year, mileage, fuel type, and more using **Machine Learning algorithms** in Python.  
+It demonstrates **supervised regression techniques** to estimate car prices accurately.
 
-Steps Performed:
-Data loading and exploration to understand the dataset.
-Data cleaning and preprocessing, including handling missing values and encoding categorical variables.
-Splitting the data into training and testing sets for model validation.
-Training a Linear Regression model to learn the relationship between car features and price.
-Evaluating the model’s performance using Mean Squared Error (MSE) and R-squared metrics.
-Visualizing the predicted prices against actual prices to assess accuracy.
+---
 
-Tools Used:
-Python libraries including Pandas, NumPy, Scikit-learn, Matplotlib, and Seaborn within a Jupyter Notebook environment.
+## 📊 Dataset
+- **Source:** Publicly available used car datasets (e.g., Kaggle)  
+- **Typical Features:**  
+  - Car Name / Brand  
+  - Year of Manufacture  
+  - Kilometers Driven  
+  - Fuel Type (Petrol/Diesel/CNG)  
+  - Transmission (Manual/Automatic)  
+  - Owner Type  
+- **Target Variable:** Car Price  
 
-Outcome:
+---
+
+## ✨ Features of this Project
+- ✅ Load and explore the car dataset  
+- ✅ Perform **data cleaning and preprocessing** (handling missing values, encoding categorical variables)  
+- ✅ Train **Machine Learning models** for price prediction:  
+  - Linear Regression  
+  - Decision Tree Regressor  
+  - Random Forest Regressor  
+  - Gradient Boosting Regressor  
+- ✅ Evaluate models using **R² score**, **RMSE**, and other metrics  
+- ✅ Predict car prices for new input data  
+
+---
+
+## ⚙️ Tech Stack
+- **Python 3.x**  
+- pandas – Data manipulation  
+- numpy – Numerical computations  
+- scikit-learn – Machine Learning models  
+- matplotlib,seaborn – Data visualization  
+
+---
+
+
+## Outcome:
 A trained machine learning model capable of predicting car prices with reasonable accuracy, demonstrating practical application of regression techniques in real-world data analysis.
